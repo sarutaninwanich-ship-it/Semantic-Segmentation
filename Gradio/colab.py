@@ -1,4 +1,6 @@
-
+# ==============================
+# 🔹 STEP 3 — Clone เฉพาะโฟลเดอร์ Gradio จาก GitHub (Sparse Checkout)
+# ==============================
 
 # เริ่มที่ /content
 %cd /content
@@ -9,7 +11,7 @@
 %cd /content/Semantic-Segmentation
 
 # 2) ตั้งค่า remote และเปิดโหมด sparse checkout
-!git remote add origin https://github.com/sas581/Semantic-Segmentation.git
+!git remote add origin https://github.com/sarutaninwanich-ship-it/Semantic-Segmentation.git
 !git config core.sparseCheckout true
 
 # 3) ระบุว่าเอาเฉพาะโฟลเดอร์ Gradio
