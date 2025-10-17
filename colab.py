@@ -2,7 +2,7 @@
 !pip install -q torch torchvision roboflow python-dotenv tqdm
 
 # 2) โคลน repo ของคุณ
-!git clone https://github.com/sas581/Semantic-Segmentation.git
+!git clone https://github.com/sarutaninwanich-ship-it/Semantic-Segmentation.git
 %cd Semantic-Segmentation
 
 # 3) สร้างไฟล์ .env (ใส่ค่า Roboflow และ training config)
